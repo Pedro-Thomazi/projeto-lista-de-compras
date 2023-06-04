@@ -1,0 +1,113 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.363);
+}
+
+.form h1 {
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    background: #214A4A;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+div label {
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+div input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: #ffffff6c;
+    color: #214A4A;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form .btn {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-top: auto;
+    height: 100%;
+    width: 60%;
+    align-self: center;
+    background: linear-gradient(45deg, #1f2e3e, #214A4A, #23214A);
+    color: #fff;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.363);
+    color: #fff;
+}
+
+.main ul {
+    padding: 15px;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.main ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.products p {
+    padding: 5px;
+}
+
+.main ul li span i {
+    padding: 5px;
+}
+
+.main ul li span i{
+    cursor: pointer;
+    color: rgb(99, 0, 0);
+}
+
+
+@media (min-width: 1200px) {
+    .all {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+}

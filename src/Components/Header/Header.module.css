@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    height: 100px;
+    background: linear-gradient(45deg, #1f2e3e, #214A4A, #23214A);
+    color: #fff;
+}
+
+.navgator {
+    display: flex;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.navgator a {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navgator a:hover {
+    background: #214A4A;
+    border-radius: 10px;
+}
+
+.active {
+    background: #214A4A;
+}
